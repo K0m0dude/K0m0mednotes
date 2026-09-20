@@ -1,0 +1,178 @@
+# Pages CMS configuration: this file turns the notes in this repository into a
+# simple form-based editor at https://app.pagescms.org
+media: media
+
+content:
+  # ------------------------------------------------------------------ notes
+  - name: notes
+    label: Factfiles
+    type: collection
+    path: content/notes
+    filename: "{primary}.md"
+    format: yaml-frontmatter
+    view:
+      primary: title
+      sort: title
+      order: asc
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+        description: "The full name shown on the card, e.g. Heart failure (acute and chronic)."
+      - name: specialty
+        label: Specialty
+        type: reference
+        required: true
+        options:
+          collection: specialties
+          value: "{path}"
+          label: "{primary}"
+        description: "Which specialty page this note appears on. Add new ones under Specialties."
+      - name: category
+        label: Category
+        type: reference
+        options:
+          collection: categories
+          value: "{path}"
+          label: "{primary}"
+        description: "Sets the colour and the 'Sort by category' grouping."
+      - name: short
+        label: Short name (optional)
+        type: string
+        description: "Used on the jump buttons and for A to Z sorting, e.g. Heart failure. Leave blank to use the title."
+      - name: keywords
+        label: Search keywords (optional)
+        type: string
+        description: "Extra words that should find this note, e.g. abbreviations and drug names. Separate with spaces."
+      - name: order
+        label: List order (optional)
+        type: number
+        description: "Lower numbers appear first in 'List order'. Leave blank to place it after the numbered notes, A to Z."
+      - name: draft
+        label: Draft (hide from the site)
+        type: boolean
+        description: "Tick while you are still writing. Untick when it is ready to publish."
+      - name: pinned
+        label: Pin to the top as a read-first guide
+        type: boolean
+        description: "Only for guides that should sit at the top, always open, and not be sorted with the conditions."
+      - name: background
+        label: Background and pathophysiology
+        type: rich-text
+        options:
+          format: markdown
+          media: false
+      - name: diagnosis
+        label: Diagnosis and clinical signs
+        type: rich-text
+        options:
+          format: markdown
+          media: false
+      - name: investigations
+        label: Investigations
+        type: rich-text
+        options:
+          format: markdown
+          media: false
+      - name: treatment
+        label: Treatment
+        type: rich-text
+        options:
+          format: markdown
+          media: false
+      - name: protocols
+        label: Emergency protocols and red flags
+        type: rich-text
+        options:
+          format: markdown
+          media: false
+        description: "Shown in the orange box at the end of the card."
+      - name: body
+        label: Extra sections (optional, advanced)
+        type: rich-text
+        options:
+          format: markdown
+          media: false
+        description: "Start each extra section with a ## heading. It appears after the five standard sections."
+
+  # ------------------------------------------------------------ specialties
+  - name: specialties
+    label: Specialties
+    type: collection
+    path: content/specialties
+    filename: "{primary}.md"
+    format: yaml-frontmatter
+    view:
+      primary: title
+      sort: order
+      order: asc
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+        description: "e.g. Cardiology. This becomes the page name and the card on the home page."
+      - name: description
+        label: Short description
+        type: text
+        description: "One or two sentences shown on the home page and at the top of the specialty page."
+      - name: colour
+        label: Colour
+        type: string
+        pattern:
+          regex: "^#[0-9a-fA-F]{6}$"
+          message: "Use a hex colour such as #1c5d99"
+        description: "Hex colour for the home page card, e.g. #1c5d99."
+      - name: order
+        label: Order on the home page
+        type: number
+        description: "Lower numbers appear first."
+
+  # ------------------------------------------------------------- categories
+  - name: categories
+    label: Categories
+    type: collection
+    path: content/categories
+    filename: "{primary}.md"
+    format: yaml-frontmatter
+    view:
+      primary: title
+      sort: order
+      order: asc
+    fields:
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: colour
+        label: Colour
+        type: string
+        pattern:
+          regex: "^#[0-9a-fA-F]{6}$"
+          message: "Use a hex colour such as #d1453b"
+        description: "Hex colour used for the card stripe, jump buttons and legend."
+      - name: order
+        label: Order
+        type: number
+        description: "Order of the groups when sorting by category. Lower numbers first."
+
+  # ---------------------------------------------------------- site settings
+  - name: site
+    label: Site settings
+    type: file
+    path: content/site.yml
+    fields:
+      - name: title
+        label: Site title
+        type: string
+      - name: tagline
+        label: Home page introduction
+        type: text
+      - name: disclaimer
+        label: Disclaimer (top of pages)
+        type: text
+        description: "Use **double asterisks** for bold."
+      - name: footer
+        label: Footer note
+        type: text
