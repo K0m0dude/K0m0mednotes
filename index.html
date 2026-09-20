@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Ward round factfiles</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Newsreader:opsz,wght@6..72,500;6..72,700&display=swap">
+<style>
+:root{
+  --bg:#f3f5f8;--surface:#ffffff;--ink:#18212b;--muted:#566373;--line:#d9dee5;--accent:#1c5d99;--on-accent:#ffffff;--warn-bg:#fdeceb;--warn-ink:#8c1d18;
+  box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#10161d;--surface:#18212b;--ink:#e6ebf1;--muted:#9aa8b8;--line:#2b3745;--accent:#7ab6ec;--on-accent:#10161d;--warn-bg:#3a1a19;--warn-ink:#f3b1ac;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#10161d;--surface:#18212b;--ink:#e6ebf1;--muted:#9aa8b8;--line:#2b3745;--accent:#7ab6ec;--on-accent:#10161d;--warn-bg:#3a1a19;--warn-ink:#f3b1ac;
+}
+html{height:100%}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;min-height:100%;background:var(--bg);color:var(--ink);font-family:"Atkinson Hyperlegible",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;font-size:16px;line-height:1.55;-webkit-text-size-adjust:100%}
+.wrap{max-width:860px;margin:0 auto;padding:0 16px 48px}
+header.top{padding:32px 0 8px}
+h1{font-family:Newsreader,Georgia,"Times New Roman",serif;font-weight:700;font-size:clamp(30px,7vw,46px);line-height:1.08;margin:0 0 10px;letter-spacing:-.01em}
+.lede{color:var(--muted);margin:0;max-width:56ch}
+:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+
+.specs{list-style:none;margin:26px 0 0;padding:0;display:grid;gap:14px}
+.spec{background:var(--surface);border:1px solid var(--line);border-left:6px solid var(--c,#7b8794);border-radius:6px;padding:18px 18px 16px}
+.spec h2{font-family:Newsreader,Georgia,serif;font-weight:700;font-size:24px;line-height:1.15;margin:0 0 6px}
+.spec p{margin:0 0 12px;max-width:62ch}
+.spec .meta{color:var(--muted);font-size:14px;margin-bottom:14px}
+.open{display:inline-block;background:var(--accent);color:var(--on-accent);font-weight:700;text-decoration:none;padding:10px 16px;border-radius:6px}
+.open:hover{filter:brightness(1.08)}
+.jump{margin-top:16px;border-top:1px solid var(--line);padding-top:10px}
+.jump summary{cursor:pointer;font-size:15px;color:var(--ink);padding:4px 0}
+.jump ul{list-style:none;margin:10px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:6px}
+.jump a{display:inline-block;font-size:14px;padding:5px 10px;border:1px solid var(--line);border-radius:999px;color:var(--ink);text-decoration:none;background:var(--bg)}
+.jump a:hover{border-color:var(--c,var(--accent))}
+
+.disc{font-size:14px;background:var(--warn-bg);color:var(--warn-ink);border-radius:6px;padding:8px 12px;margin:26px 0 0;max-width:70ch}
+@media (prefers-reduced-motion:reduce){*{transition:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="top">
+  <h1>Ward round factfiles</h1>
+  <p class="lede">Quick-reference notes for each rotation. Open a specialty to search and sort its conditions, or jump straight to one.</p>
+</header>
+
+<main>
+<ul class="specs" id="specialties">
+
+  <!--
+    TO ADD A NEW SPECIALTY
+    1. Save the new page in the same folder as this file, e.g. cardiology.html
+    2. Copy the whole <li class="spec"> ... </li> block below and paste it under the last one
+    3. Change: the colour in style="--c:#...", the title, the description, the meta line,
+       the href on the "Open" link, and the condition links (cardiology.html#id).
+       The #id is the id of each condition's <details> element in that page.
+  -->
+
+  <li class="spec" style="--c:#1c5d99">
+    <h2>Acute medicine</h2>
+    <p>Twenty-five core conditions from the acute take. Each has background and pathophysiology, diagnosis and signs, investigations, treatment and emergency protocols.</p>
+    <p class="meta">25 conditions, plus a read-first guide for your first ward round</p>
+    <a class="open" href="acute-medicine.html">Open acute medicine</a>
+    <details class="jump">
+      <summary>Jump to a condition</summary>
+      <ul>
+        <li><a href="acute-medicine.html#diabetes">Diabetes and DKA</a></li>
+        <li><a href="acute-medicine.html#acs">Acute coronary syndrome</a></li>
+        <li><a href="acute-medicine.html#aki">Acute kidney injury</a></li>
+        <li><a href="acute-medicine.html#seizures">Seizures and status</a></li>
+        <li><a href="acute-medicine.html#anaphylaxis">Anaphylaxis</a></li>
+        <li><a href="acute-medicine.html#asthma">Asthma</a></li>
+        <li><a href="acute-medicine.html#cancer">Cancer and oncology emergencies</a></li>
+        <li><a href="acute-medicine.html#stroke">Stroke and TIA</a></li>
+        <li><a href="acute-medicine.html#ckd">Chronic kidney disease</a></li>
+        <li><a href="acute-medicine.html#copd">COPD</a></li>
+        <li><a href="acute-medicine.html#cirrhosis">Cirrhosis</a></li>
+        <li><a href="acute-medicine.html#deteriorating">Deteriorating patient</a></li>
+        <li><a href="acute-medicine.html#drugs">Drugs and overdose</a></li>
+        <li><a href="acute-medicine.html#gibleed">GI bleeding</a></li>
+        <li><a href="acute-medicine.html#hf">Heart failure</a></li>
+        <li><a href="acute-medicine.html#htn">Hypertension</a></li>
+        <li><a href="acute-medicine.html#ie">Infective endocarditis</a></li>
+        <li><a href="acute-medicine.html#ibd">IBD</a></li>
+        <li><a href="acute-medicine.html#ihd">Stable angina (IHD)</a></li>
+        <li><a href="acute-medicine.html#pleural">Pleural disease</a></li>
+        <li><a href="acute-medicine.html#pyelo">Pyelonephritis</a></li>
+        <li><a href="acute-medicine.html#sepsis">Sepsis and infection</a></li>
+        <li><a href="acute-medicine.html#sickle">Sickle cell disease</a></li>
+        <li><a href="acute-medicine.html#uti">UTI</a></li>
+        <li><a href="acute-medicine.html#vte">DVT and PE</a></li>
+      </ul>
+    </details>
+  </li>
+
+</ul>
+
+<p class="disc"><b>Study aid, not a prescribing guide.</b> Always check the BNF and your trust's guidelines, and take your seniors' advice before acting on anything here.</p>
+</main>
+
+</div>
+</body>
+</html>
