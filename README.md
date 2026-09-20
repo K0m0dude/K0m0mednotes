@@ -7,21 +7,7 @@ You write notes in a simple form (or plain Markdown files). GitHub turns them in
 
 ---
 
-## One-time setup (about 15 minutes)
-
-1. **Make a repository.** Sign in at github.com, click **New repository**, name it (for example `factfiles`), keep it **Public**, and create it.
-2. **Upload the files.** Unzip the download. On the new repository page click **Add file, then Upload files**, and drag in everything from inside the unzipped folder. Click **Commit changes**.
-   - Check that the repository now shows a `.github` folder and a `.pages.yml` file. Some computers hide or skip these.
-   - If either is missing, click **Add file, then Create new file**. Type the path (`.github/workflows/pages.yml` or `.pages.yml`), paste in the contents of the matching file from the `setup-backup` folder (`pages.yml` or `pages-cms.yml`), and commit.
-3. **Turn on publishing.** Go to **Settings, then Pages**. Under **Build and deployment**, set **Source** to **GitHub Actions**.
-4. **Wait for the first build.** Open the **Actions** tab. A run called *Build and deploy site* should be going (if not, open it and click **Run workflow**). When it shows a green tick, your site is live at `https://YOUR-USERNAME.github.io/YOUR-REPOSITORY/`. Bookmark it.
-5. **Connect the editor.** Go to **app.pagescms.org**, sign in with GitHub, and follow the prompts to give it access to this one repository. Open the repository and you will see **Factfiles**, **Specialties**, **Categories** and **Site settings** in the sidebar. Bookmark this too.
-
-You never need to repeat these steps.
-
----
-
-## Adding a new note (the everyday routine)
+## Adding a new note
 
 1. Open **app.pagescms.org**, choose your repository, and click **Factfiles**, then the button for adding a new entry.
 2. Fill in the form:
