@@ -1,7 +1,8 @@
 ---
 title: "Cancer: new presentations, complications and treatment toxicity"
 short: "Cancer and oncology emergencies"
-specialty: content/specialties/acute-medicine.md
+specialty:
+  - content/specialties/acute-medicine.md
 category: content/categories/haem-and-oncology.md
 keywords: "oncology neutropenic sepsis mscc spinal cord compression hypercalcaemia svco tumour lysis immunotherapy checkpoint inhibitor irae chemotherapy"
 order: 70

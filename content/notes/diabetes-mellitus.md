@@ -1,7 +1,8 @@
 ---
 title: "Diabetes mellitus (type 1, type 2), DKA and pancreatic diabetes"
 short: "Diabetes and DKA"
-specialty: content/specialties/acute-medicine.md
+specialty:
+  - content/specialties/acute-medicine.md
 category: content/categories/endocrine.md
 keywords: "type 1 type 2 dka hhs hypoglycaemia pancreatic type 3c insulin ketones"
 order: 10

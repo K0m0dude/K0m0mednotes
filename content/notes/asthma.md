@@ -1,7 +1,8 @@
 ---
 title: "Asthma (acute attack)"
 short: "Asthma"
-specialty: content/specialties/acute-medicine.md
+specialty:
+  - content/specialties/acute-medicine.md
 category: content/categories/respiratory.md
 keywords: "acute severe asthma peak flow salbutamol magnesium bts sign"
 order: 60

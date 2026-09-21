@@ -1,7 +1,8 @@
 ---
 title: "Sickle cell disease and sickle cell crisis"
 short: "Sickle cell disease"
-specialty: content/specialties/acute-medicine.md
+specialty:
+  - content/specialties/acute-medicine.md
 category: content/categories/haem-and-oncology.md
 keywords: "sickle cell crisis vaso-occlusive acute chest syndrome hydroxycarbamide hbss priapism splenic sequestration"
 order: 230

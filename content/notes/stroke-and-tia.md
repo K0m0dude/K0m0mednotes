@@ -1,7 +1,8 @@
 ---
 title: "Cerebrovascular disease: TIA and stroke (ischaemic and haemorrhagic)"
 short: "Stroke and TIA"
-specialty: content/specialties/acute-medicine.md
+specialty:
+  - content/specialties/acute-medicine.md
 category: content/categories/neurology.md
 keywords: "tia stroke ischaemic haemorrhage subarachnoid thrombolysis thrombectomy alteplase tenecteplase fast rosier nihss"
 order: 80

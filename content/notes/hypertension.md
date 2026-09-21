@@ -1,7 +1,8 @@
 ---
 title: "Hypertension"
 short: "Hypertension"
-specialty: content/specialties/acute-medicine.md
+specialty:
+  - content/specialties/acute-medicine.md
 category: content/categories/cardiovascular.md
 keywords: "hypertension hypertensive emergency malignant labetalol secondary hypertension bp target nice ng136"
 order: 160

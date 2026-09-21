@@ -1,7 +1,8 @@
 ---
 title: "Cirrhosis and liver decompensation"
 short: "Cirrhosis"
-specialty: content/specialties/acute-medicine.md
+specialty:
+  - content/specialties/acute-medicine.md
 category: content/categories/gastro-and-liver.md
 keywords: "ascites sbp spontaneous bacterial peritonitis hepatic encephalopathy variceal hepatorenal alcoholic hepatitis liver failure"
 order: 110

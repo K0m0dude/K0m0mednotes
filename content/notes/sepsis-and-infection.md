@@ -1,7 +1,8 @@
 ---
 title: "Sepsis and infection: meningitis, malaria, pneumonia (and endocarditis)"
 short: "Sepsis and infection"
-specialty: content/specialties/acute-medicine.md
+specialty:
+  - content/specialties/acute-medicine.md
 category: content/categories/infection.md
 keywords: "sepsis septic shock sepsis six lactate meningitis malaria pneumonia curb-65 ceftriaxone aciclovir artesunate lumbar puncture neutropenic"
 order: 220

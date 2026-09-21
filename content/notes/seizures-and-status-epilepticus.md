@@ -1,7 +1,8 @@
 ---
 title: "Acute seizures and status epilepticus"
 short: "Seizures and status"
-specialty: content/specialties/acute-medicine.md
+specialty:
+  - content/specialties/acute-medicine.md
 category: content/categories/neurology.md
 keywords: "status epilepticus lorazepam levetiracetam epilepsy first seizure convulsion"
 order: 40

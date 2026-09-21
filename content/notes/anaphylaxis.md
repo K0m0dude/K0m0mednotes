@@ -1,7 +1,8 @@
 ---
 title: "Anaphylaxis"
 short: "Anaphylaxis"
-specialty: content/specialties/acute-medicine.md
+specialty:
+  - content/specialties/acute-medicine.md
 category: content/categories/general-acute.md
 keywords: "adrenaline epinephrine allergy tryptase angioedema epipen"
 order: 50

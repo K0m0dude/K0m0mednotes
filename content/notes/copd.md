@@ -1,7 +1,8 @@
 ---
 title: "Chronic obstructive pulmonary disease (COPD)"
 short: "COPD"
-specialty: content/specialties/acute-medicine.md
+specialty:
+  - content/specialties/acute-medicine.md
 category: content/categories/respiratory.md
 keywords: "exacerbation niv hypercapnia oxygen 88-92 emphysema chronic bronchitis"
 order: 100

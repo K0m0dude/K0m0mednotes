@@ -1,7 +1,8 @@
 ---
 title: "Chronic kidney disease (CKD)"
 short: "Chronic kidney disease"
-specialty: content/specialties/acute-medicine.md
+specialty:
+  - content/specialties/acute-medicine.md
 category: content/categories/renal-and-urinary.md
 keywords: "chronic kidney disease egfr acr proteinuria anaemia dialysis renal replacement"
 order: 90

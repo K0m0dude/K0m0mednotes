@@ -1,7 +1,8 @@
 ---
 title: "Ischaemic heart disease (stable angina)"
 short: "Stable angina (IHD)"
-specialty: content/specialties/acute-medicine.md
+specialty:
+  - content/specialties/acute-medicine.md
 category: content/categories/cardiovascular.md
 keywords: "stable angina chronic coronary syndrome ctca gtn beta blocker revascularisation pci cabg"
 order: 190

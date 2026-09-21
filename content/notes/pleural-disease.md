@@ -1,7 +1,8 @@
 ---
 title: "Pleural disease: pneumothorax and pleural effusion"
 short: "Pleural disease"
-specialty: content/specialties/acute-medicine.md
+specialty:
+  - content/specialties/acute-medicine.md
 category: content/categories/respiratory.md
 keywords: "pneumothorax tension effusion empyema chest drain aspiration light's criteria"
 order: 200

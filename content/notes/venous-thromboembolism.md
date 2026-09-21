@@ -1,7 +1,8 @@
 ---
 title: "Venous thromboembolism: DVT and pulmonary embolism"
 short: "DVT and PE"
-specialty: content/specialties/acute-medicine.md
+specialty:
+  - content/specialties/acute-medicine.md
 category: content/categories/haem-and-oncology.md
 keywords: "pulmonary embolism dvt deep vein thrombosis wells score d-dimer ctpa doac apixaban heparin thrombolysis massive pe"
 order: 250

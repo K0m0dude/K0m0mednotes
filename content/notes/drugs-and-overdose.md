@@ -1,7 +1,8 @@
 ---
 title: "Drugs: reactions, overdose and toxicity, alcohol withdrawal"
 short: "Drugs and overdose"
-specialty: content/specialties/acute-medicine.md
+specialty:
+  - content/specialties/acute-medicine.md
 category: content/categories/general-acute.md
 keywords: "overdose poisoning paracetamol salicylate opioid naloxone alcohol withdrawal delirium tremens wernicke pabrinex sjs dress serotonin toxbase toxicity adverse drug reaction"
 order: 130

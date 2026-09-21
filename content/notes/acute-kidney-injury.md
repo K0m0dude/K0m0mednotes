@@ -1,7 +1,8 @@
 ---
 title: "Acute kidney injury (AKI)"
 short: "Acute kidney injury"
-specialty: content/specialties/acute-medicine.md
+specialty:
+  - content/specialties/acute-medicine.md
 category: content/categories/renal-and-urinary.md
 keywords: "acute kidney injury kdigo hyperkalaemia atn rrt dialysis creatinine oliguria"
 order: 30

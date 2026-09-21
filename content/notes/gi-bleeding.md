@@ -1,7 +1,8 @@
 ---
 title: "Gastrointestinal (GI) bleeding"
 short: "GI bleeding"
-specialty: content/specialties/acute-medicine.md
+specialty:
+  - content/specialties/acute-medicine.md
 category: content/categories/gastro-and-liver.md
 keywords: "haematemesis melaena varices peptic ulcer glasgow blatchford rockall terlipressin major haemorrhage lower gi bleed"
 order: 140

@@ -1,7 +1,8 @@
 ---
 title: "Inflammatory bowel disease (IBD)"
 short: "IBD"
-specialty: content/specialties/acute-medicine.md
+specialty:
+  - content/specialties/acute-medicine.md
 category: content/categories/gastro-and-liver.md
 keywords: "crohn ulcerative colitis acute severe colitis truelove witts hydrocortisone infliximab toxic megacolon calprotectin"
 order: 180

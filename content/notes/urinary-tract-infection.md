@@ -1,7 +1,8 @@
 ---
 title: "Urinary tract infection: lower and upper (overview)"
 short: "UTI"
-specialty: content/specialties/acute-medicine.md
+specialty:
+  - content/specialties/acute-medicine.md
 category: content/categories/renal-and-urinary.md
 keywords: "urinary tract infection cystitis catheter nitrofurantoin trimethoprim prostatitis epididymo-orchitis asymptomatic bacteriuria dipstick"
 order: 240

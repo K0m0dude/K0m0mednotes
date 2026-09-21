@@ -1,7 +1,8 @@
 ---
 title: "The deteriorating patient"
 short: "Deteriorating patient"
-specialty: content/specialties/acute-medicine.md
+specialty:
+  - content/specialties/acute-medicine.md
 category: content/categories/general-acute.md
 keywords: "news2 abcde escalation arrest als sbar outreach 2222 sepsis six"
 order: 120

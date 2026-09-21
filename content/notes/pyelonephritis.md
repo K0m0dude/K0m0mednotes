@@ -1,7 +1,8 @@
 ---
 title: "Pyelonephritis"
 short: "Pyelonephritis"
-specialty: content/specialties/acute-medicine.md
+specialty:
+  - content/specialties/acute-medicine.md
 category: content/categories/renal-and-urinary.md
 keywords: "pyelonephritis upper urinary tract infection loin pain pyonephrosis obstructed kidney urosepsis"
 order: 210

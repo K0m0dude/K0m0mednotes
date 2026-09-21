@@ -1,7 +1,8 @@
 ---
 title: "Infective endocarditis"
 short: "Infective endocarditis"
-specialty: content/specialties/acute-medicine.md
+specialty:
+  - content/specialties/acute-medicine.md
 category: content/categories/infection.md
 keywords: "endocarditis duke criteria vegetation osler janeway roth blood cultures staphylococcus viridans"
 order: 170

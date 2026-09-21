@@ -1,7 +1,8 @@
 ---
 title: "Heart failure (acute and chronic)"
 short: "Heart failure"
-specialty: content/specialties/acute-medicine.md
+specialty:
+  - content/specialties/acute-medicine.md
 category: content/categories/cardiovascular.md
 keywords: "heart failure pulmonary oedema furosemide bnp hfref hfpef cardiogenic shock diuretic"
 order: 150

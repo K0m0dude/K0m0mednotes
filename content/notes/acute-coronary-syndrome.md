@@ -1,7 +1,8 @@
 ---
 title: "Acute coronary syndrome (ACS)"
 short: "Acute coronary syndrome"
-specialty: content/specialties/acute-medicine.md
+specialty:
+  - content/specialties/acute-medicine.md
 category: content/categories/cardiovascular.md
 keywords: "stemi nstemi unstable angina troponin ecg pci fibrinolysis grace"
 order: 20
