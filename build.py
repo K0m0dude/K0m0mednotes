@@ -253,7 +253,7 @@ def card_html(n):
     if not n["pinned"]:
         attrs += f' data-cat="{E(n["cat_title"])}"'
     attrs += f' data-short="{E(n["short"])}" data-k="{E(n["keywords"])}"'
-    if n["pinned"] and n["open"]:
+    if False:
         attrs += " open"
     label = "Read first" if n["pinned"] else n["cat_title"]
     body = "".join(section_html(t, h, p) for t, h, p in n["sections"])
