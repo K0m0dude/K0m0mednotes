@@ -1,5 +1,5 @@
 ---
-title: Heart Failure (Gen
+title: Heart Failure (Generic)
 specialty:
   - content/specialties/cardiology.md
   - content/specialties/acute-medicine.md
