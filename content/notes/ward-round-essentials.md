@@ -4,7 +4,7 @@ specialty: content/specialties/acute-medicine.md
 short: Ward round essentials
 order: 0
 draft: false
-pinned: false
+pinned: true
 ---
 ## Know before you walk in
 
