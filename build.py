@@ -254,7 +254,6 @@ def card_html(n):
         attrs += f' data-cat="{E(n["cat_title"])}"'
     attrs += f' data-short="{E(n["short"])}" data-k="{E(n["keywords"])}"'
     if n["pinned"] and n["open"]:
-        attrs += " open"
     label = "Read first" if n["pinned"] else n["cat_title"]
     body = "".join(section_html(t, h, p) for t, h, p in n["sections"])
     return (f'<details {attrs}>\n<summary><span class="cn">{E(n["title"])}</span>'
