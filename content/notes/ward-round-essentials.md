@@ -1,11 +1,11 @@
 ---
-title: "Before your first ward round"
-short: "Ward round essentials"
+title: Before your first ward round
 specialty: content/specialties/acute-medicine.md
-pinned: true
+short: Ward round essentials
 order: 0
+draft: false
+pinned: false
 ---
-
 ## Know before you walk in
 
 - **The one-line story:** age, sex, presenting complaint, key background, day of admission, working diagnosis.
@@ -18,7 +18,7 @@ order: 0
 
 ## Presenting a patient
 
-Keep it structured and short: *"Mr X is a 72-year-old man, day 3 of admission with … on a background of … Overnight … Today he is \[comfortable / unwell\], obs are … (NEWS2 …). On examination … Bloods show … My impression is … and the plan is …"*
+Keep it structured and short: *"Mr X is a 72-year-old man, day 3 of admission with … on a background of … Overnight … Today he is comfortable / unwell, obs are … (NEWS2 …). On examination … Bloods show … My impression is … and the plan is …"*
 
 ## Ground rules
 
@@ -27,3 +27,4 @@ Keep it structured and short: *"Mr X is a 72-year-old man, day 3 of admission wi
 - Ask "what is the worst thing this could be?" for every patient, then "what would rule it out?"
 - Don't prescribe, give drugs or do procedures without supervision. Do take the history, examine fully, look up the trend and volunteer a differential.
 - Good questions for a senior: "What would make you escalate?", "What are you watching for overnight?", "Why that antibiotic?"
+
