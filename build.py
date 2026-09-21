@@ -157,6 +157,23 @@ def resolve(ref, collection):
     return None
 
 
+def resolve_many(value, collection):
+    """Like resolve(), but accepts one reference, a list of references, or comma-separated text.
+    Returns (found keys without duplicates, references that could not be found)."""
+    raw = list(value) if isinstance(value, (list, tuple)) else [value]
+    keys, missing = [], []
+    for ref in raw:
+        ref = s(ref).strip()
+        if not ref:
+            continue
+        found = resolve(ref, collection)
+        candidates = [ref] if found or "," not in ref else [p.strip() for p in ref.split(",") if p.strip()]
+        for cand in candidates:
+            key = found if cand == ref and found else resolve(cand, collection)
+            (keys if key else missing).append(key or cand)
+    return list(dict.fromkeys(keys)), missing
+
+
 def load_site():
     site = dict(DEFAULT_SITE)
     path = CONTENT / "site.yml"
@@ -253,7 +270,7 @@ def card_html(n):
     if not n["pinned"]:
         attrs += f' data-cat="{E(n["cat_title"])}"'
     attrs += f' data-short="{E(n["short"])}" data-k="{E(n["keywords"])}"'
-    if False:
+    if n["pinned"] and n["open"]:
         attrs += " open"
     label = "Read first" if n["pinned"] else n["cat_title"]
     body = "".join(section_html(t, h, p) for t, h, p in n["sections"])
@@ -313,10 +330,13 @@ def main():
         if not title:
             err(f"{where}: the note needs a title")
             continue
-        spec_key = resolve(meta.get("specialty"), specialties)
-        if not spec_key:
+        spec_keys, missing = resolve_many(meta.get("specialty"), specialties)
+        if missing or not spec_keys:
             avail = ", ".join(sorted(specialties)) or "none yet"
-            err(f"{where}: the specialty '{s(meta.get('specialty'))}' was not found (available: {avail})")
+            if missing:
+                err(f"{where}: the specialty '{', '.join(missing)}' was not found (available: {avail})")
+            else:
+                err(f"{where}: choose at least one specialty (available: {avail})")
             continue
         pinned = truthy(meta.get("pinned"))
         cat_key = resolve(meta.get("category"), categories)
@@ -343,13 +363,15 @@ def main():
             continue
 
         order = to_number(meta.get("order"))
-        specs[spec_key]["notes"].append({
+        note = {
             "id": slug, "title": title, "short": s(meta.get("short")).strip() or title,
             "keywords": s(meta.get("keywords")).strip(), "order": order, "pinned": pinned,
-            "open": not str(meta.get("open", "true")).strip().lower() in ("false", "no", "0", "off"),
+            "open": truthy(meta.get("open", "false")),  # pinned notes start collapsed unless 'open: true'
             "cat_title": cat["title"] if cat else "", "cat_order": cat["order"] if cat else 0,
             "colour": cat["colour"] if cat else NEUTRAL, "sections": sections,
-        })
+        }
+        for spec_key in spec_keys:  # the same note appears on every specialty page it is assigned to
+            specs[spec_key]["notes"].append(note)
 
     live = [sp for sp in specs.values() if sp["notes"]]
     if not live and not errors:

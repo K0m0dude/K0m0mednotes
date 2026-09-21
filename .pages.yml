@@ -21,14 +21,16 @@ content:
         required: true
         description: "The full name shown on the card, e.g. Heart failure (acute and chronic)."
       - name: specialty
-        label: Specialty
+        label: Specialties
         type: reference
         required: true
         options:
           collection: specialties
+          multiple: true
+          min: 1
           value: "{path}"
           label: "{primary}"
-        description: "Which specialty page this note appears on. Add new ones under Specialties."
+        description: "Choose every specialty page this note should appear on (for example Acute medicine and Cardiology). Add new ones under Specialties."
       - name: category
         label: Category
         type: reference
@@ -56,7 +58,11 @@ content:
       - name: pinned
         label: Pin to the top as a read-first guide
         type: boolean
-        description: "Only for guides that should sit at the top, always open, and not be sorted with the conditions."
+        description: "Only for guides that should sit at the top and not be sorted with the conditions."
+      - name: open
+        label: Start open (pinned notes only)
+        type: boolean
+        description: "Tick to make a pinned note start expanded. Leave unticked to start collapsed."
       - name: background
         label: Background and pathophysiology
         type: rich-text
