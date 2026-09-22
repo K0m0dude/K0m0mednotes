@@ -68,11 +68,11 @@ investigations: >+
   - Coronary angiography ± PCI or CABG.
 
 treatment: >+
-  - Immediate: resuscitation area, monitoring, IV access, **aspirin 300 mg**
-  chewed. Oxygen only if SpO₂ <94% (target 94–98%). Sublingual or IV **GTN** for
-  ongoing pain (avoid if hypotensive, right ventricular infarct, or recent PDE-5
-  inhibitor). IV opioid only for severe pain (may slow absorption of oral
-  antiplatelets).
+  - Immediate: resuscitation area, monitoring, IV access, (MONA), **aspirin 300
+  mg** chewed. Oxygen only if SpO₂ <94% (target 94–98%). Sublingual or IV
+  **GTN** for ongoing pain (avoid if hypotensive, right ventricular infarct, or
+  recent PDE-5 inhibitor). IV opioid only for severe pain (may slow absorption
+  of oral antiplatelets).
 
   - **STEMI:** emergency reperfusion. **Primary PCI** if presenting within 12 h
   and PCI can be delivered within 120 minutes of the time fibrinolysis could
