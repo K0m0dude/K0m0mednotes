@@ -40,14 +40,16 @@ diagnosis: |+
   | - Change in size - Change in shape - Change in colour | - Inflammation - Sensory change - Diameter >7mm(unless growth is in the vertical plane) - Crusting or bleeding |
 
 
+  - Unexplained weight loss, fatigue, night-sweats, fever, ↓appetite, and DVT can be non-specific signs of cancer. Assess for any additional risk factors, symptoms, signs, and refer accordingly
+
 investigations: |+
   Following initial inspection, if melanoma is suspected or unsure - follow the NICE 2015 guidelines for assessment of melanoma:
 
-  - Assess all pigmented skin lesions that are either referred for assessment or identified during follow-up in secondary or tertiary care, using dermoscopy carried out by healthcare professionals trained in this technique. **[2015]**
+  - Assess all pigmented skin lesions that are either referred for assessment or identified during follow-up in secondary or tertiary care, using dermoscopy carried out by healthcare professionals trained in this technique.
   - For a clinically atypical melanocytic lesion that does not need excision at first presentation in secondary or tertiary care:
     - use baseline photography (preferably dermoscopic) and
     - review the clinical appearance of the lesion, and compare it with the baseline photographic images, 3 months after first presentation to identify early signs of melanoma.
-  - In the determination of malignancy, prioritise [TNM staging](https://www.uicc.org/sites/default/files/atoms/files/How_to_use_TNM.pdf) to assess active clinical risk:
+  - In the determination of malignancy, prioritise [TNM staging](https://www.uicc.org/sites/default/files/atoms/files/How_to_use_TNM.pdf) and calculate [number stage](https://melanomafocus.org/melanoma-patient-treatment-guide/melanoma-info-by-stage/melanoma-staging-explained/) to assess active clinical risk:
     - **Tis:** This means the melanoma cells are only in the very top layer of the skin surface. It is called melanoma in situ.
     - **T0:** Means your doctors can no longer see the melanoma at the place it started (primary site). Or tests show that you have a melanoma that has spread, but your doctors do not know where it started.
     - **T1:** This means the melanoma is 1 mm thick or less. Doctors split T1 into T1a and T1b.  
@@ -63,10 +65,45 @@ investigations: |+
       - there are in-transit, satellite or microsatellite metastases
     - **N2:** Means there are melanoma cells in either:
       - 2 or 3 lymph nodes
-      - one lymph node and there are also in-transit, satellite or microsatellite metastases  
+      - one lymph node and there are also in-transit, satellite or microsatellite metastases
     - **N3:** Means there are melanoma cells in:
       - 4 or more lymph nodes
       - any number of lymph nodes and they have stuck to each other (matted lymph nodes)
       - 2 or more lymph nodes and there are in-transit, satellite or microsatellite metastases
+
+treatment: >+
+  - Use a clinical margin of:
+    - Consider a clinical margin of at least 0.5 cm when excising stage 0 melanoma.
+    - If excision for stage 0 melanoma does not achieve an adequate histological margin, discuss further management with the specialist skin cancer multidisciplinary team.
+    - 1 cm when excising stage I melanoma or when a 2 cm excision margin would cause unacceptable disfigurement or morbidity
+    - 2 cm when excising stage II melanoma.
+  - The clinical margin should be around the histological biopsy scar and take
+  into account the primary melanoma margin.
+
+  - Do not routinely offer completion lymph node dissection to people with stage
+  III melanoma and micrometastatic nodal disease detected by SLNB unless:
+    - there are factors that might make recurrent nodal disease difficult to manage, and
+    - after discussion with the person and the specialist skin cancer multidisciplinary team.  
+    Examples of factors that might make recurrent nodal disease difficult to manage include melanoma of the head and neck, people for whom stage III adjuvant therapies are contraindicated, or when regular follow‑up is not possible.
+  - When treating In-transit metastases in stages III-IV melanoma:
+    - Offer surgery as the first option and if surgery is not feasible, or if the person has recurrent in-transit metastases, consider one of the following options based on their suitability for the person:
+      - systemic anticancer therapy (see [recommendations 1.8.6 to 1.8.15 on systemic anticancer treatments for untreated stage IV and unresectable stage III melanoma](https://www.nice.org.uk/guidance/ng14/chapter/recommendations#systemic-anticancer-treatments-for-untreated-stage-iv-and-unresectable-stage-iii-melanoma))
+      - talimogene laherparepvec, in line with [NICE's technology appraisal guidance on talimogene laherparepvec](https://www.nice.org.uk/guidance/ta410)
+      - isolated limb infusion or perfusion
+      - radiotherapy
+      - electrochemotherapy, in line with [NICE's interventional procedures guidance on electrochemotherapy for metastases in the skin from tumours of non-skin origin and melanoma](https://www.nice.org.uk/guidance/ipg446)
+      - a topical agent such as imiquimod.
+
+protocols: >+
+  Common but alarming **side effects of anti-cancer medications:**
+
+
+  - **Vomiting:** Prophylaxis is given with most cytotoxic regimens (p247).
+
+  - **Alopecia:** May profoundly impact quality of life. Consider ‘cold-cap’,
+  wig services.
+
+  - **Neutropenia:** Most commonly seen 7–14d after chemotherapy. Neutropenic
+  sepsis is life-threatening and needs urgent assessment and empirical treatment
+  (p350).
 ---
-/
