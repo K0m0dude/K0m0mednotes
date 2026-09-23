@@ -29,11 +29,11 @@ background: "- There are **3** main forms of malignant skin lesion:
   ipilimumab (human monoclonal antibodies that block PD-1 and CTLA-4,
   respectively) improves survival in patients with metastatic melanoma with BRAF
   mutations, or in those without the mutation but with advanced disease who have
-  already undergone surgery or radiation therapy. 3
+  already undergone surgery or radiation therapy.
 
   - If smooth, well-demarcated, and regular, it is unlikely to be a melanoma but
   diagnosis can be tricky. Most melanomas have features described by Glasgow
-  7-point checklist and abcde criteria, but not all. If in doubt, refer.
+  7-point checklist and ABCDE criteria, but not all. If in doubt, refer.
 
   \  - **As**ymmetry. **B**order—irregular. **C**olour—non-uniform. **D**iameter
   >6mm. **E**volution—change in size/shape/colour. + Glasgow 7-point checklist
