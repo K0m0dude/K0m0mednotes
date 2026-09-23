@@ -94,16 +94,16 @@ treatment: >+
       - electrochemotherapy, in line with [NICE's interventional procedures guidance on electrochemotherapy for metastases in the skin from tumours of non-skin origin and melanoma](https://www.nice.org.uk/guidance/ipg446)
       - a topical agent such as imiquimod.
 
-protocols: >+
-  Common but alarming **side effects of anti-cancer medications:**
+  > Common but alarming **side effects of anti-cancer medications:**
 
+  >
 
-  - **Vomiting:** Prophylaxis is given with most cytotoxic regimens (p247).
+  > - **Vomiting:** Prophylaxis is given with most cytotoxic regimens (p247).
 
-  - **Alopecia:** May profoundly impact quality of life. Consider ‘cold-cap’,
+  > - **Alopecia:** May profoundly impact quality of life. Consider ‘cold-cap’,
   wig services.
 
-  - **Neutropenia:** Most commonly seen 7–14d after chemotherapy. Neutropenic
+  > - **Neutropenia:** Most commonly seen 7–14d after chemotherapy. Neutropenic
   sepsis is life-threatening and needs urgent assessment and empirical treatment
   (p350).
 ---
