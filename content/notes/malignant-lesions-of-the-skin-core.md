@@ -34,9 +34,16 @@ background: >+
 
 
   - Squamous cell Carcinoma
-
+    - Metastases are rare but may occur in 2-5% of patients.
+    - Risk factors include:
+      - excessive exposure to sunlight / psoralen UVA therapy
+      - actinic keratoses and Bowen's disease
+      - immunosuppression e.g. following renal transplant, HIV
+      - smoking
+      - long-standing leg ulcers (Marjolin's ulcer)
+      - genetic conditions e.g. xeroderma pigmentosum, oculocutaneous albinism
   - Basal cell Carcinoma
-    - Basal cell carcinoma (BCC) is one of the three main types of [skin cancer](https://www.passmedicine.com/menu.php?revise=all#). Lesions are also known as rodent ulcers and are characterised by slow-growth and local invasion. Metastases are extremely rare. BCC is the most common type of cancer in the Western world.
+    - Lesions are also known as rodent ulcers and are characterised by slow-growth and local invasion. Metastases are extremely rare. BCC is the most common type of cancer in the Western world.
 
 diagnosis: |+
   - Malignant Melanoma
@@ -53,6 +60,9 @@ diagnosis: |+
   - Unexplained weight loss, fatigue, night-sweats, fever, ↓appetite, and DVT can be non-specific signs of cancer. Assess for any additional risk factors, symptoms, signs, and refer accordingly
 
 
+
+  - Squamous cell Carcinoma
+    - Often recognised by dermatoscope before confirmation by biopsy.
 
   - Basal Cell Carcinoma
     - many types of BCC are described. The most common type is nodular BCC, which is described here
@@ -89,7 +99,11 @@ investigations: |+
       - any number of lymph nodes and they have stuck to each other (matted lymph nodes)
       - 2 or more lymph nodes and there are in-transit, satellite or microsatellite metastases
 
-
+  >- Squamous cell carcinoma of the skin, despite having a high cure rate when diagnosed early, can lead to several complications if not promptly treated. These complications predominantly include:
+  >  - **Local recurrence:** Even after successful treatment, there's a risk of the cancer returning in the same location or nearby areas. This typically occurs within the first two years following therapy.
+  >  - **Metastasis:** In advanced stages or aggressive forms, squamous cell carcinoma can spread to local lymph nodes, distant tissues and organs. The most commonly affected sites are lungs, liver and brain.
+  >  - **Nerve involvement:** Perineural invasion, where cancer cells invade the nerves surrounding the tumour site, can lead to pain and functional impairment depending on the nerve involved.
+  >  - **Morbidity from surgical treatment:** Depending on the size and location of the cancer lesion, surgical removal may result in significant cosmetic and functional deficits. This is particularly relevant for lesions located on the face or other highly visible areas.
 
   - Basal Cell Carcinoma
     - generally, if a BCC is suspected, a routine referral should be made
@@ -116,6 +130,8 @@ treatment: >+
       - radiotherapy
       - electrochemotherapy, in line with [NICE's interventional procedures guidance on electrochemotherapy for metastases in the skin from tumours of non-skin origin and melanoma](https://www.nice.org.uk/guidance/ipg446)
       - a topical agent such as imiquimod.
+  - Squamous Cell Carcinoma
+    - Surgical excision with 4mm margins if lesion <20mm in diameter. If tumour >20mm then margins should be 6mm. Mohs micrographic surgery may be used in high-risk patients and in cosmetically important sites.
   - Basal Cell Carcinoma
     - surgical removal
     - curettage
