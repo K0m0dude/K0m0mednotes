@@ -33,11 +33,11 @@ background: "- There are **3** main forms of malignant skin lesion:
 
   | ----------------------------------------------- |
   -----------------------------------------------------------------------------\
-  -------------------------- |
+  ------------------------- |
 
   | Change in size\x1fChange in shape\x1fChange in colour |
   Inflammation\x1fSensory change\x1fDiameter >7mm(unless growth is in the
-  vertical plane)\x1fCrusting or bleeding\x1f |
+  vertical plane)\x1fCrusting or bleeding |
 
 
 
