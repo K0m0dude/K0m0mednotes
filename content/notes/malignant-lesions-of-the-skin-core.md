@@ -36,8 +36,7 @@ background: >+
   - Squamous cell Carcinoma
 
   - Basal cell Carcinoma
-
-  - 
+    - Basal cell carcinoma (BCC) is one of the three main types of [skin cancer](https://www.passmedicine.com/menu.php?revise=all#). Lesions are also known as rodent ulcers and are characterised by slow-growth and local invasion. Metastases are extremely rare. BCC is the most common type of cancer in the Western world.
 
 diagnosis: |+
   - Malignant Melanoma
@@ -52,6 +51,14 @@ diagnosis: |+
 
 
   - Unexplained weight loss, fatigue, night-sweats, fever, ↓appetite, and DVT can be non-specific signs of cancer. Assess for any additional risk factors, symptoms, signs, and refer accordingly
+
+
+
+  - Basal Cell Carcinoma
+    - many types of BCC are described. The most common type is nodular BCC, which is described here
+    - sun-exposed sites, especially the head and neck account for the majority of lesions
+    - initially a pearly, flesh-coloured papule with telangiectasia
+    - may later ulcerate leaving a central 'crater'
 
 investigations: |+
   Following initial inspection, if melanoma is suspected or unsure - follow the NICE 2015 guidelines for assessment of melanoma:
@@ -82,6 +89,11 @@ investigations: |+
       - any number of lymph nodes and they have stuck to each other (matted lymph nodes)
       - 2 or more lymph nodes and there are in-transit, satellite or microsatellite metastases
 
+
+
+  - Basal Cell Carcinoma
+    - generally, if a BCC is suspected, a routine referral should be made
+
 treatment: >+
   - Use a clinical margin of:
     - Consider a clinical margin of at least 0.5 cm when excising stage 0 melanoma.
@@ -104,6 +116,12 @@ treatment: >+
       - radiotherapy
       - electrochemotherapy, in line with [NICE's interventional procedures guidance on electrochemotherapy for metastases in the skin from tumours of non-skin origin and melanoma](https://www.nice.org.uk/guidance/ipg446)
       - a topical agent such as imiquimod.
+  - Basal Cell Carcinoma
+    - surgical removal
+    - curettage
+    - cryotherapy
+    - topical cream: imiquimod, fluorouracil
+    - radiotherapy
 
   > Common but alarming **side effects of anti-cancer medications:**
 
