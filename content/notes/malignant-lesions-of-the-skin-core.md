@@ -99,11 +99,11 @@ investigations: |+
       - any number of lymph nodes and they have stuck to each other (matted lymph nodes)
       - 2 or more lymph nodes and there are in-transit, satellite or microsatellite metastases
 
-  >- Squamous cell carcinoma of the skin, despite having a high cure rate when diagnosed early, can lead to several complications if not promptly treated. These complications predominantly include:
-  >  - **Local recurrence:** Even after successful treatment, there's a risk of the cancer returning in the same location or nearby areas. This typically occurs within the first two years following therapy.
-  >  - **Metastasis:** In advanced stages or aggressive forms, squamous cell carcinoma can spread to local lymph nodes, distant tissues and organs. The most commonly affected sites are lungs, liver and brain.
-  >  - **Nerve involvement:** Perineural invasion, where cancer cells invade the nerves surrounding the tumour site, can lead to pain and functional impairment depending on the nerve involved.
-  >  - **Morbidity from surgical treatment:** Depending on the size and location of the cancer lesion, surgical removal may result in significant cosmetic and functional deficits. This is particularly relevant for lesions located on the face or other highly visible areas.
+  > - Squamous cell carcinoma of the skin, despite having a high cure rate when diagnosed early, can lead to several complications if not promptly treated. These complications predominantly include:
+  >   - **Local recurrence:** Even after successful treatment, there's a risk of the cancer returning in the same location or nearby areas. This typically occurs within the first two years following therapy.
+  >   - **Metastasis:** In advanced stages or aggressive forms, squamous cell carcinoma can spread to local lymph nodes, distant tissues and organs. The most commonly affected sites are lungs, liver and brain.
+  >   - **Nerve involvement:** Perineural invasion, where cancer cells invade the nerves surrounding the tumour site, can lead to pain and functional impairment depending on the nerve involved.
+  >   - **Morbidity from surgical treatment:** Depending on the size and location of the cancer lesion, surgical removal may result in significant cosmetic and functional deficits. This is particularly relevant for lesions located on the face or other highly visible areas.
 
   - Basal Cell Carcinoma
     - generally, if a BCC is suspected, a routine referral should be made
